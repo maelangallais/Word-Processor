@@ -7,7 +7,7 @@ A lightweight, custom **text editor / word processor** built in MicroPython for 
 ## ✨ Features
 
 - **Full Calculator Keyboard Mapping**: Every key from `a` to `!` is mapped for text entry.
-- **Multi-Layer Keyboards**: Switch character layers using **`Shift`**, **`Alpha`**, and **`X,N,T`** (press **`Var`** to preview available characters on the current layer).
+- **Multi-Layer Keyboards**: Switch character layers using **`Shift`**, **`Alpha`**, and **`X,N,T`** to access extended symbols and punctuation.
 - **Smart Key Repeat**: Pressing a key triggers an immediate action; holding it for more than `0.5s` enables continuous repeat for smoother typing.
 - **Smart Cursor Navigation**: Move across text with directional arrows; cursor column position is remembered across line changes and constrained to existing text boundaries.
 - **Color Customization**: Change text color on the fly.
@@ -21,7 +21,6 @@ A lightweight, custom **text editor / word processor** built in MicroPython for 
 - **Backspace** : Delete character.
 - **EXE** : Insert new line.
 - **Shift / Alpha / X,N,T** : Switch keyboard character layers.
-- **Var** : Display character map for the active keyboard layer.
 
 *Note: Documents are held in memory during the session and are not saved to persistent storage.*
 
